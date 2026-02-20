@@ -1,0 +1,21 @@
+[package]
+authors.workspace = true
+description = "Backend server"
+edition.workspace = true
+license.workspace = true
+name = "backend"
+version.workspace = true
+
+[dependencies]
+axum = { workspace = true }
+axum-server = { workspace = true }
+dotenvy = { workspace = true }
+jsonwebtokens-cognito = { workspace = true }
+serde_json = { workspace = true }
+shellexpand = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

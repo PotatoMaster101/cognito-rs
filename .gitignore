@@ -1,0 +1,21 @@
+# backend
+**/*.rs.bk
+**/mutants.out*/
+*.pdb
+Cargo.lock
+debug/
+target/
+
+# frontend
+node_modules/
+package-lock.json
+dist/
+
+# ide
+.idea/
+.vscode/
+
+# environment
+*.pem
+.DS_Store
+.env
